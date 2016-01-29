@@ -1,0 +1,63 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": "5.1.*",
+        "barryvdh/laravel-debugbar": "^2.0",
+        "smarty/smarty": "^3.1",
+        "doctrine/dbal": "^2.5",
+        "intervention/image": "^2.3@dev",
+        "mews/captcha": "dev-master",
+        "zizaco/entrust": "dev-master",
+        "php-curl-class/php-curl-class": "dev-master",
+        "jenssegers/agent": "^3.0@dev",
+        "maatwebsite/excel": "dev-master",
+        "aferrandini/phpqrcode": "dev-master",
+        "php-ffmpeg/php-ffmpeg": "^0.5.0@dev",
+        "predis/predis": "^1.1@dev"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~4.0",
+        "phpspec/phpspec": "~2.1"
+    },
+    "autoload": {
+        "classmap": [
+
+        ],
+        "psr-4": {
+
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+
+        ]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "composer dump-autoload --optimize"
+        ],
+        "pre-update-cmd": [
+            "move .\\vendor\\addons addons"
+        ],
+        "post-update-cmd": [
+            "move addons .\\vendor\\addons",
+            "composer dump-autoload --optimize"
+        ],
+        "post-root-package-install": [
+            "php -r \"copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
