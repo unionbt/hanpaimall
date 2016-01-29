@@ -1,0 +1,23 @@
+
+.service-head{background-color: #ffffff;margin-top: 10px;}
+
+.subapply {height:60px;background-color: #eb8500;}
+.subapply a{color:#fdfffc;font-size: 2em;height:60px;line-height:60px;display:block;text-decoration: none;}
+
+
+.express{}
+.express address{margin-top: 10px;font-size: 1em;color:#555555;text-decoration: none;opacity: 0.8;} 
+.express .express-name{margin-bottom: 15px;} 
+.express .express-title{padding-left: 0;padding-right: 0;color: #8e8e8e;padding-top: 2%;}
+.express .express-name select{margin-left: -26%;}
+.express .express-num {margin-bottom: 15%;}
+.express .express-num input{margin-left: -26%;}
+
+.btn-store {margin-top: 10px;margin-right: 5px; }
+.btn-express{margin-top: 10px;}
+.btn-store.active,.btn-express.active,.btn-express.active:hover,.btn-store.active:hover{background-color: #a60014;color: #ffffff;font-weight: bold;}
+
+
+#store {display: none;background-color: #ffffff;margin-top: 10px;}
+.store {background-color: #ffffff;margin-top: 10px;}
+#express {display: none;background-color: #ffffff;margin-top: 10px;}''

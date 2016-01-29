@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+#dfh_content {
+	width:1053px;
+	overflow:hidden;
+	float:right;
+	display:block;
+}
+.dfh_inform {
+	width:260px;
+} 
+.dfh_price {
+	width:186px;
+}
+.dfh_number {
+	width:43px;
+}
+.dfh_aftersale {
+	width:230px;
+}
+.dfh_total {
+	width:110px;
+}
+.dfh_state {
+	width:110px;
+}
+.dfh_operation {
+	width:111px;
+}
+#dfh_content div.content_list {
+	margin-top:19px;
+	width:100%;
+	overflow:hidden;
+	background-color:#FFF;
+	border-width:1px;
+	border-color:#dddddd;
+	border-style:solid;
+}
+#dfh_content div.content_list ul.content_listtop {
+	width:100%;
+	overflow:hidden;
+	background-color:#dddddd;
+	height:39px;
+}
+#dfh_content div.content_list ul li {
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#545454;
+	line-height:39px;
+	height:39px;
+}
+#dfh_content div.content_list ul li.order_number {
+	width:226px;
+	margin-left:34px;
+}
+#dfh_content div.content_list ul li.order_time {
+	width:226px;
+}
+#dfh_content div.content_list ul.content_detail{
+	width:100%;
+	background-color:#fff;
+	height:128px;
+}
+#dfh_content div.content_list ul.content_detail li.inform_list {
+	overflow:hidden;
+	display:block;
+	height:100%;
+}
+#dfh_content div.content_list ul.content_detail li.inform_list a{
+	display:block;
+}
+#dfh_content div.content_list ul.content_detail li a div.goods_photo {
+	width:90px;
+	height:90px;
+	margin-left:34px;
+	margin-top:20px;
+	float:left;
+}
+#dfh_content div.content_list ul.content_detail li a div.goods_detail {
+	width:115px;
+	overflow:hidden;
+	margin-top:20px;
+	margin-left:10px;
+	height:90px;
+	float:right;
+}
+#dfh_content div.content_list ul.content_detail li a div.goods_detail h2 {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	line-height:17px;
+	overflow:hidden;
+}
+#dfh_content div.content_list ul.content_detail li a div.goods_detail div {
+	width:108px;
+	overflow:hidden;}
+#dfh_content div.content_list ul.content_detail li a div.goods_detail div span.kuaizhao {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	line-height:17px;
+	height:17px;
+	display:block;
+	margin:auto;
+	width:100%;
+	text-align:center;
+}
+#dfh_content div.content_list ul.content_detail li a div.goods_detail div span.clothcolor {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#9a9a9a;
+	line-height:18px;
+	display:block;
+	width:100%;
+	text-align:left;
+}
+#dfh_content div.content_list ul.content_detail li.price_list {
+	overflow:hidden;
+	vertical-align:middle;
+	text-align:center;
+	height:128px;
+	line-height:128px;
+}
+#dfh_content div.content_list ul.content_detail li.number_list {
+	overflow:hidden;
+	vertical-align:middle;
+	text-align:center;
+	height:128px;
+	line-height:128px;	
+}
+#dfh_content div.content_list ul.content_detail li.aftersale_list {
+	overflow:hidden;
+	vertical-align:middle;
+	text-align:center;
+	height:128px;
+	line-height:128px;
+}
+#dfh_content div.content_list ul.content_detail li.total_list {
+	overflow:hidden;
+	vertical-align:middle;
+	text-align:center;
+	height:128px;
+	padding-top:46px;
+	border-width:0;
+	border-left-width:1px;
+	border-style:solid;
+	border-color:#dddddd;
+}
+#dfh_content div.content_list ul.content_detail li.total_list p {
+	margin:0;
+	padding:0;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	line-height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	vertical-align:middle;
+}
+#dfh_content div.content_list ul.content_detail li.state_list {
+	overflow:hidden;
+	vertical-align:middle;
+	text-align:center;
+	height:128px;
+	padding-top:46px;
+	border-width:0;
+	border-left-width:1px;
+	border-style:solid;
+	border-color:#dddddd;
+}
+#dfh_content div.content_list ul.content_detail li.state_list p {
+	margin:0;
+	padding:0;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	line-height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	vertical-align:middle;
+}
+#dfh_content div.content_list ul.content_detail li.state_list p a:hover{
+	color:#F00;}
+#dfh_content div.content_list ul.content_detail li.operation_list {
+	overflow:hidden;
+	vertical-align:middle;
+	text-align:center;
+	height:128px;
+	padding-top:10px;
+	border-width:0;
+	border-left-width:1px;
+	border-style:solid;
+	border-color:#dddddd;
+}
+#dfh_content div.content_list ul.content_detail li.operation_list h3{
+	margin:0;
+	padding:0;
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	line-height:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+	vertical-align:middle;
+	background-color:#c40001;
+	margin-bottom:6px;
+}
+#dfh_content div.content_list ul.content_detail li.operation_list h3 a{
+	color:#FFF;
+	display:block;}
+#dfh_content div.content_list ul.content_detail li.operation_list p {
+	width:100%;
+	overflow:hidden;
+	text-align:center;
+	line-height:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	vertical-align:middle;
+}
+
+

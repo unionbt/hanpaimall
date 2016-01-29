@@ -1,0 +1,15 @@
+body,html {background-color: #f3f3f3;}
+header {height: 44px;background-color: #a60014;padding:5px 0;display: block;}
+header img.icon-left {height:32px;line-height: 32px;}
+header i.icon-right {color:white;font-size: 1.5em;line-height: 1.5em;}
+header #search_key{outline: none;border: 0;}
+.flexslider{border: 0px;margin: 0;overflow: hidden;}
+.commheight{height: 60px;}
+
+footer {position: fixed;bottom: 0; left: 0; right: 0; height: 60px;width:100%;background-color: #fff;border-top: 2px gray solid;z-index: 12;}
+footer .group {}
+footer .group .item {color: gray;text-align: center;}
+footer .group .item.active {color: red;font-weight: bolder;}
+footer .group .item .icon {font-size: 1.3em;line-height: 2em;}
+
+.support{width: 100%;border-top:1px solid #e5e5e5;color: #cccccc;padding-top:45px;background: url(../../img/m/copyright.png) no-repeat center;}

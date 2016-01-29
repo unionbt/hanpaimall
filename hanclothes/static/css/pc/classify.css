@@ -1,0 +1,27 @@
+.content{background-color: #ffffff;width: 1190px;margin: 0 auto;padding-bottom: 80px;}
+
+
+.content h3{clear:both;width:1190px;font-size: 20px;border-bottom: 1px solid #e0e0e0;padding: 5px 0; text-align: center;background-color: #ffffff;}
+.content h6{width:1190px;padding: 10px 0; text-align: center;background-color: #ffffff;margin: 0;}
+.content .tab{width:1190px;height: 50px;background-color: #f4f4f4;border:1px solid #e0e0e0;margin-top: -1px;margin-bottom: -1px; }
+.content .tab a{width:60px;height: 50px;line-height: 50px; display: inline-block;text-align: center;border-right:1px solid #e0e0e0;margin-right: -2px;} 
+.content .tab a:hover{background-color: #ffffff;color: #c40000;border-bottom:none; } 
+
+.content .show{width:1190px;margin-top: 20px;background-color: #eeeeee;}
+.content .show ul{width:1200px;height: 410px;margin-left: -10px;margin-top: 20px;} 
+.content .show ul>li{width:230px;height: 410px;background-color: #ffffff;float: left;margin-left: 10px;} 
+.content .show ul>li .showimg img{width:230px;height: 310px;} 
+.content .show ul>li .showimg{width:230px;height: 310px;overflow: hidden;} 
+
+.content .show ul>li .showimg .showfloat{position: relative;top:0px;height: 36px;width: 230px;background-color: #000000;opacity: 0;filter:alpha(opacity=80);} 
+.content .show ul>li .showimg .showfloat img{width: 20px;height: 15px;} 
+.content .show ul>li .showimg .showfloat a{display: inline-block;height: 36px;line-height: 36px;padding: 0 10px;}
+.content .show ul>li .showimg .showfloat a:hover{background-color: #494949;} 
+.content .show ul>li .showimg .showfloat .showfloat-word{float: right;background-color: #ff0000;color: #ffffff;} 
+.content .show ul>li .showimg .showfloat .showfloat-word:hover{background-color: #ff0000;} 
+
+.content .show ul>li h5{width:230px;height: 50px;padding: 20px 20px 0px 20px;margin: 0;font-size: 12px;line-height: 14px; color: #666666;overflow: hidden;} 
+.content .show ul>li h5 a{color: #666666;} 
+.content .show ul>li h4{width:230px;height: 50px;padding: 0 20px;line-height: 50px; color:#c40000;margin: 0;} 
+.content .show ul>li h4 small{color:#c40000;} 
+.content .show ul>li h4 span{display: inline-block;color: #adadad;height: 25px;line-height: 25px;margin-top: 12.5px; width: 70px;font-size: 12px;text-align: center;border: 1px solid #E8B2BC;float: right;} 

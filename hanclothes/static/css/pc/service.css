@@ -1,0 +1,51 @@
+header{height: 40px;}
+header .topnav{top:0px;position: relative;}
+
+.container{background-color: #ebebeb;width: 100%;}
+.container .orderNum{width: 1190px;height: 40px; margin: 10px auto;background-color: #ffffff;clear: both;}
+.container .orderNum h5{float: left;height: 40px;line-height: 40px;margin: 0 100px 0 10px;font-size: 12px;color: #555555;}
+.container .item{width: 1190px;height:370px;margin: 0 auto;background-color: #ffffff;padding: 40px 10px; }
+.container .item img{width: 300px;height: 300px;float: left;}
+.container .item .item_title{position: relative; float: left;margin-left: 25px;height: 300px;width:845px; }
+.container .item .item_title h5{float:left;font-size: 18px;line-height: 26px;height: 48px; color: #555555;width: 300px;overflow: hidden;margin: 0}
+.container .item .item_title h6{text-align: right;color: #a60014; font-size: 18px;line-height: 26px;height: 48px;width:545px; color: #a60014;overflow: hidden;margin: 0}
+.container .item .item_title h6>small{font-size: 18px;}
+.container .item .item_title>div{position: relative;float: left;}
+.container .item .item_title>div>h5{width:140px;font-size: 18px;line-height: 18px;height: 20px;color: #a9a9a9; margin: 0;margin-top: 232px;overflow: hidden;}
+
+.container .return{width: 1190px; margin: 0 auto;padding: 30px 0px;}
+.container .return h5{margin: 0;padding-left: 10px;font-size: 18px;font-weight: bolder;color: #a6a6a6;}
+.container .return textarea{resize: none;height: 300px;width: 100%; margin-top: 10px;outline: none;text-align: left;}
+
+.container .buttons{width: 1190px;margin: 0 auto;margin-top: 20px;height: 60px;}
+.container .buttons span{display: block;float: left;text-align: center; width: 585px;height: 60px;font-size: 24px;line-height: 60px;color: #555555;margin: 0;padding: 0; border: 1px solid #cccccc;background-color: #ffffff;border-radius: 0;}
+.container .buttons #btnpost{margin-left: 20px;}
+.container .buttons span.active{background-color: #ff9933;color: #ffffff;}
+
+.container .postReturn{width: 1190px;height: 150px; margin: 0 auto;margin-top: 20px;clear: both;background-color: #ffffff;}
+.container h4{height: 50px;line-height: 50px;font-weight: bolder;color: #555555; padding-left: 10px; background-color: #ffffff;font-size: 18px;border-bottom: 2px solid #ebebeb;}
+.container .address{padding-left: 10px;padding-top: 15px; width: 33.33%;float: left}
+.container .address>h5{font-size: 14px;color: #555555;overflow: hidden;margin: 0px;}
+.container .address>small{font-size: 14px;color: #adadad;overflow: hidden;}
+.container .postCompany ,.container .storeRange{width: 33.33%;float: left;text-align: center;outline: none;padding-top: 15px;}
+.container .postCompany>span{font-size: 14px;color: #adadad;overflow: hidden;}
+.container .postCompany>select , .container .postNum>input{width: 200px; height: 30px;outline: none;color: #9f9f9f;background-color: #ebebeb;border: 1px solid #cccccc}
+.container .postNum {width: 33.33%;float: right;text-align: right;padding-right: 10px;padding-top: 15px;}
+.container .postReturn{}
+.container .storeReturn{display: none;}
+.container .storeReturn{width: 1190px;margin: 0 auto;margin-top: 20px;margin-bottom: 100px; clear: both;background-color: #ffffff;}
+.container .storeReturn .store{width: 1190px;height: 80px;clear: both;background-color: #ffffff;border-bottom: 1px solid #ebebeb;}
+.container .store .address{width: 49%;}
+.container .store .storeRange{text-align: left;padding-top: 29px;}
+.container .store .storeRange img{width: 14px;height: 22px;margin-right: 10px;}
+.container .store .storeRange span{font-size: 14px;color: #828282}
+.container .store .storeChoose{float: right; width: 20px;height: 20px;padding-top: 29px;margin-right:10px; }
+
+.container .storeChoose img{width: 20px;height: 20px;}
+.container .storeChoose img.active{width: 20px;height: 20px;background: url(../../img/pc/checked.png) no-repeat;}
+
+.container .showMore{width: 1190px;margin: 0px auto;clear: both;text-align: center;background-color: #ebebeb;}
+.container .showMore a{font-size: 14px;color: #a4a4a4;margin-top: 5px;font-weight:bolder;}
+.container .showMore i{font-size: 14px;margin-top: 5px;}
+.container .submit{width: 1190px;margin: 50px auto;clear: both;}
+.container .submit a{height: 60px;width: 100%;line-height: 60px; background-color:#ff9933;color: #ffffff;margin: 0;padding:0;font-size: 24px;border:none;border-radius: 0;}

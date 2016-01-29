@@ -1,0 +1,31 @@
+
+.shoppingcart{}
+.shoppingcart .headtitle{height: 60px;background-color: #ffffff;margin-top: 8px;}
+.shoppingcart .headtitle label{height: 60px;line-height: 60px;padding-left: 30px;font-size: 1.3em;color: #a60014;}
+.shoppingcart .headtitle label span{color:#c6c6c6; }
+.shoppingcart .choosegoods{height: 140px;background-color: #ffffff;padding-top: 5px;}
+.shoppingcart .choosegoods .goodsthumbnail {overflow: hidden;} 
+.shoppingcart .choosegoods .goodsthumbnail img{max-height: 110px;} 
+.shoppingcart .choosegoods .goodstitle {font-size:1.1em; color: #555555;overflow: hidden;text-overflow: ellipsis;white-space:nowrap;} 
+.shoppingcart .choosegoods .goodstitle a{color: #555555;} 
+.shoppingcart .choosegoods .col-xs-7{padding: 0px;} 
+.shoppingcart .choosegoods .col-xs-7 .col-xs-12{padding-left: 0px;} 
+
+.choosegoods h5 {line-height: 20px;height: 20px;}
+.choosegoods h5 small{padding-left: 0}
+
+.choosegoods .price {color: red;overflow: hidden;text-overflow: ellipsis;white-space:nowrap;}
+.addnum {margin-top:5px;width: 60%;overflow: hidden;}
+.addnum button{border-radius: 0;outline: none;}
+.addnum button:active{border-radius: 0;outline: none;box-shadow: none;}
+.addnum button i{font-size:0.8em;}
+.addnum .cnt_minus,.choosegoods .addnum .cnt_plus{padding:6px 0;}
+.addnum .cnt {padding:0;}
+.addnum input{color: red;padding: 0;border-radius: 0;}
+
+.cartfooter{position: fixed;bottom: 0;left: 0;right: 0;height: 60px;line-height: 60px; width:100%;padding: 0;margin: 0}
+.cartfooter .cartcount{background-color: #ffffff;font-size: 1.2em;color: #a60014;padding-left: 8%;}
+.cartfooter .cartcount span{background-color: #ffffff;color: #a60014;}
+.cartfooter .cartgopay{background-color: #a60014;height:100%;padding:0;}
+.cartfooter .cartgopay button{text-decoration: none;font-size: 1.6em;font-weight: 500;height:100%;line-height: 100%;color: #ffffff;padding: 0;border: 0;}
+.cartfooter .cartgopay button:hover{outline: none;}

@@ -1,0 +1,34 @@
+header{height: 40px;}
+header .topnav{top:0px;position: relative;}
+body{background-color: #f5f5f5}
+.content{border-top:1px solid #ecebeb;position: relative;background-color: #ffffff;width: 1190px;margin: 0 auto;}
+
+.content h4{width: 1190px;height: 75px; margin: 0 auto;font-size: 16px;font-weight: bolder; color: #666666;text-indent:1em;padding-top: 40px;border-bottom: 1px solid #ecebeb;}
+.content h5{width: 1190px;position: absolute;left: 50%;margin-left: -595px;padding-left: 100px;top:125px;font-size: 16px;color: #777777;font-weight: 100;}
+.content>div{width: 210px;height: 210px; margin: 0 auto;background: url(../images/codeframe.png) no-repeat; margin-top: 50px;padding:5px;}
+.content>div>img{width: 200px;height: 200px;}
+.content>p{width: 1190px;margin: 0 auto;text-align: center;padding:20px 0 100px 0;color: #777777;border-bottom: 1px solid #ecebeb}
+
+
+
+
+
+form{width: 1190px;margin: 0 auto;padding-left: 100px;margin-top: 20px; }
+form label{height: 115px;width: 1190px;border-bottom: 1px solid #ecebeb;padding-top:39px;display: inline-block;}
+form label .title{width: 80px;display:inline-block;font-weight: 100;}
+form label .detail{}
+form label .change{float: right;margin-right: 100px;color: #60c7f3;background-color: #ffffff;border: 0;border-radius: 0;font-weight: bolder;}
+form label .change:hover ,form label .confirm:hover , form label .cancel:hover{color: #60c7f3;}
+form label .cancel , form label .confirm{float: right;margin-right: 60px;color: #60c7f3;background-color: #ffffff;border: 0;border-radius: 0;font-weight: bolder;}
+form label .confirm{margin-right: 40px;display: none;}
+form label .cancel{margin-right: 60px;display: none;}
+
+
+form label>input{display: none;width: 300px;height: 36px;outline: none;}
+#phoneNum{width: 200px;height: 36px;}
+#phoneCode{width: 100px;height: 36px;}
+form label .getCode{display: none; width: 100px;background-color: #dedddd;font-size: 14px;color:#a3a2a2;font-weight: 200; height: 36px;line-height: 36px; padding: 0;margin: 0;border: 0;margin-left: 20px;border-radius: 0;}
+form label .getCode:hover{color:#a3a2a2;}
+form .checkbox{margin-top: 50px;padding-left: 20px;}
+form .button{height: 140px;text-align: center;padding:50px 0;padding-right: 50px;}
+form .button button{width: 120px;height: 40px;font-size: 18px;margin-left: 50px; font-weight: 100;opacity: .9}

@@ -1,0 +1,18 @@
+header{height: 40px;}
+header .topnav{top:0px;position: relative;}
+
+.content{border-top:1px solid #ecebeb;}
+.content p{width: 930px;margin: 0 auto;padding: 70px 0;font-size: 18px;color: #666666;text-indent:2em;}
+.content>div{width: 930px;margin: 0 auto;font-size: 18px;color: #666666;height: 200px;}
+.content>div>img{width: 200px;height: 200px;margin-left: 50px;}
+.content>div>h5{width: 525px;float: right;font-size: 18px;padding-top: 82px;margin: 0;}
+form{width: 930px;margin: 0 auto;margin-top:20px; }
+form label{width: 930px;font-size: 18px;margin-bottom: 40px; opacity: 0.9;}
+form label>span{width: 90px;display:inline-block;font-weight: 100;}
+form label>input{width: 630px;height: 48px;outline: none;}
+#phoneNum{width: 340px;}
+#phoneCode{width: 128px;}
+form label .getCode{width: 130px;background-color: #dedddd;font-size: 18px;color:#a3a2a2;font-weight: 200; height: 48px;line-height: 48px; padding: 0;margin: 0;border: 0;margin-left: 20px;border-radius: 0;}
+form label .getCode:hover{color:#a3a2a2;}
+form .button{height: 40px;width: 930px;margin:50px 0;text-align: center;}
+form .button button{width: 120px;height: 40px;margin-left: 50px;font-size: 18px;font-weight: 100;opacity: .9}

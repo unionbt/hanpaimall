@@ -1,0 +1,76 @@
+
+.headdetail {height: 45px;background-color: #ffffff;padding: 10px 15px;border-bottom: 1px solid #d6d6d6;}
+.headdetail .col-xs-1 , .headdetail .col-xs-2 , .headdetail .col-xs-9 {padding: 0;}
+.headdetail img.icon-left , .headdetail img.icon-right{height: 25px;}
+.headdetail div.detailtitle{font-size: 1.2em; color:#7d7d7d;height:25px;line-height: 25px;padding-left: 10px; display: block;overflow: hidden;white-space: nowrap;text-overflow:ellipsis;}
+
+#slider{padding:0;border: 0;margin: 0;height: 280px;overflow: hidden;}
+#slider img{}
+#slider .flex-control-nav{bottom: 0;position: absolute;}
+#slider .flex-control-nav li{width: 22px;}
+#slider .flex-control-nav li a.flex-active{background-color: #a61004;}
+.min-line div{height: 40px;line-height: 40px;font-size: 1.2em; margin: 10px 0;padding:0 10px;background-color: #ffffff;}
+
+
+.detailbtn{}
+.detailbtn{padding:20px 15% 0 15%;}
+.detailbtn a{font-weight: bolder;}
+.detailbtn label.active , .detailbtn label.btn-default.active:hover{background-color: #a60014;color: #ffffff;font-weight: bold;}
+
+
+.content{word-wrap:break-word; word-break:break-all;overflow: hidden;width: 100%;padding: 10px 10px;}
+.content img{max-width: 100%;overflow: hidden;}
+
+
+.deailfooter{position: fixed;bottom: 0;left: 0;right: 0;height: 60px;line-height: 60px;}
+.deailfooter div{padding:0;}
+
+.deailfooter a{font-size: 1.6em;font-weight: 500; color:#ffffff;height: 60px;line-height: 60px;border: 0;border-radius: 0;padding:0;}
+.deailfooter .addcart a{background-color: #eb8500;}
+.deailfooter .addcart a:hover{background-color: #eb8500;color:#ffffff;}
+.deailfooter .detailbuy a{background-color: #a60014;}
+.deailfooter .detailbuy a:hover{color: #ffffff;}
+
+
+/*
+ 模态框
+*/
+
+
+.modal {}
+.modal-dialog{margin-top: 10%;}
+.modal-header{}
+.modal-header .container-fluid{}
+.modal-header .container-fluid .order-title{margin-bottom: 10px;}
+.modal-header .container-fluid .order-title img{}
+.modal-header .container-fluid .order-title .order-title-info {padding-top:2%;margin-top: -3%;padding-right: 0;}
+.modal-header .container-fluid .order-title .order-title-info h4 {color: #a60001;}
+.modal-header .container-fluid .order-title .order-title-info p {color:#656565;font-size: 1.1em;margin:0;}
+.modal-bottom {top:auto;overflow:auto;}
+.modal-open .modal-bottom {overflow-x: visible; overflow-y: visible;}
+
+.order-title .avatar-container {position: relative;}
+.order-title .avatar-container .img {position: absolute; top: -30px; left: 0;width: 100%;overflow: hidden;padding-right: 15px;}
+.order-title .avatar-container .img img {max-height: 120px;width: 100%;}
+
+.secondcontaner{background-color: #ffffff;}
+.flcolor{border-width: 0px;padding-bottom: 20px;font-weight: bold;}
+
+
+.flsize label,.flcolor label{margin-right: 5px;}
+
+.flcolor label.active,.flcolor label.btn-default.active:hover{background-color: #a60014;color: #ffffff;}
+
+.flcolor legend{color:#a9a9a9;font-weight:bold;font-size: 1.6em;border-width: 0px;padding-top: 5px;}
+.flcolor button{color:#545454;font-weight: bold;}
+.flcolor button.active{background-color: #a60014;color:#ffffff;font-weight: bold;}
+.flsize {padding-bottom: 20px;}
+.flsize button.active{}
+.flsize legend{color:#a9a9a9;font-weight:bold;font-size: 1.6em;border-width: 0px;border-top: 1px solid #e5e5e5;padding-top: 5px;}
+
+
+.goodsnum{border-top:1px solid #e5e5e5;padding-top: 10px;padding-bottom: 10px;}
+.goodsnum span{font-size: 1.3em;}
+.goodsnumbutton{}
+.goodsnumbutton input{width: 30%;}
+.confirminfo {font-size: 1.6em;color:#fdfffc;height:60px;line-height:60px;width:100%;background-color: #a60014;padding:0;border: 0;}

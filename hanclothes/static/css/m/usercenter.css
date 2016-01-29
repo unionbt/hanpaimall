@@ -1,0 +1,39 @@
+
+a{color:#555555;text-decoration: none;}
+a:hover{text-decoration: none;color:#555555 }
+.userinfo{padding: 10px 0;background-color: #d0e9e8;}
+.userinfo .userinfo_1{padding-top: 5%;}
+.userinfo .userinfo_1 h4{color: #b81a1a;}
+.userinfo .userinfo_1 p{font-size: 18px;font-weight: bolder;color: #999999;}
+.userinfo .userinfo_2 div{padding-top: 5px;color: #aeb1af}
+
+
+.btn-header{background-color: #ffffff;padding-top:10px;padding-bottom: 10px;font-size: 1em;}
+.btn-header a{width:20%;border-radius: 0;border: 0;padding-left: 9px;}
+.btn-header a.btn-default.active,.btn-header a.btn-default.active:hover{background-color: #a61004;color:#ffffff;font-weight: bold;}
+.btn-header .btn-group>.btn {float: none;}
+
+.order-num{background-color: #ffffff;padding: 10px 0;border-bottom: 1px solid #e0e0e0;}
+.order-num ul{list-style: none;padding: 0;margin: 0;margin-top: 2%;}
+.order-num li{float: left;font-size: 0.6em;padding:0;padding-left: 15px;}
+
+.orderinfo {margin:10px 0;}
+.orderinfo .orderinfo-bd{background-color: #ffffff;padding: 5px 0;}
+.orderinfo .orderinfo-bd .orderinfo-title{padding: 0;}
+.orderinfo .orderinfo-bd .orderinfo-title a:hover{color:#555555;}
+.orderinfo .orderinfo-bd .orderinfo-title div{padding:5px 0;font-size: 1.1em; margin: 0;white-space: nowrap;overflow: hidden;text-overflow:ellipsis;}
+.orderinfo .orderinfo-bd .orderinfo-title span{font-size:0.8em;padding-left: 0}
+.orderinfo .orderinfo-bd .orderinfo-title h5{font-size:1.1em;padding:0;color: #a60014}
+.orderinfo .orderinfo-bd .orderinfo-title h5 small{padding:0;color:#616161;}
+
+.orderinfo .orderinfo-btn{padding:10px 0;background-color: #ffffff;border-bottom: 1px solid #e0e0e0;border-top: 1px solid #e0e0e0;}
+.orderinfo .orderinfo-btn a{padding:5px 15px;font-size:1.1em;display: inline-block; background-color: #ffffff;border: 1px solid #e0e0e0;margin-right: 15px;}
+.orderinfo .orderinfo-btn a:active{box-shadow: none;background-color: #ffffff;border: 1px solid #e0e0e0;}
+.orderinfo .orderinfo-btn span{margin: 0;}
+.orderinfo-btn h6{margin-top: 0;color: #a60014;}
+.orderinfo-btn h6 span{color: #555555;}
+
+#unpay{display: ;}
+#unpaid{display: ;}
+#finish{display: ;}
+#refund{display: ;}

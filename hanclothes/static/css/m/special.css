@@ -1,0 +1,12 @@
+.topimg{width: 100%;overflow: hidden;height: 140px;}
+.special-title{padding: 10px;margin: 0;height: 30px;line-height: 10px;font-size: 0.5em;background-color: #ffffff;}
+a{text-decoration: none}
+a:hover{text-decoration: none}
+.imglist{background-color:#f4f4f4;}
+.imglist .item{float:left;width:48%;margin:5px 1%;background-color: #ffffff;}
+.imglist .item div{clear: both;padding: 0;height: 200px;width: 100%;overflow: hidden;}
+.imglist .item h5{padding: 0 10px;text-overflow:ellipsis;overflow: hidden;white-space: nowrap;}
+.imglist .item h5 img{display: inline-block;float:left;height: 16px;}
+.imglist .item h5 a{height: 16px;font-size: 16px;color: #555555}
+.imglist .item h6{font-size: 1.4em;color: #a61400;font-weight: 700; padding: 0 10px;margin: 0 0 5px 0;}
+.imglist .item h6 i{font-size: 1em;}

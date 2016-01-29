@@ -1,0 +1,32 @@
+.paytitle{padding:0 15px;font-size: 1.2em;height: 20px;line-height: 20px; font-weight: 700;}
+
+.setpay{background-color:#ffffff;height: 60px;margin-bottom: 10px;}
+.setpay label{display: inline-block;padding: 0;margin: 0;height: 60px;}
+.setpay label div{margin: 0;padding: 0}
+.setpay .radio{}
+.setpay .radio input{margin:22.5px 0 0 20px;padding:0;height: 15px;width: 15px;}
+.setpay h6{margin:0;font-size: 0.8em;font-weight: 500;padding: 0;font-weight: 700;margin-top: 10px;height: 20px;line-height: 20px;}
+.setpay small{margin:0;padding:0;font-size: 0.8em;font-weight: 500;height: 20px;line-height: 20px;}
+.setpay img{width:30px;height:30px;margin-top: 15px;}
+
+.paynum{height: 80px;}
+.paynum h4{height: 60px;line-height: 60px; background-color: #ffffff;}
+.paynum small{height: 20px;}
+
+.payfooter{position: fixed;bottom: 0;left: 0;right: 0;height: 60px;line-height: 60px; width:100%;}
+.payfooter .paycount{background-color: #ffffff;font-size: 1.2em;font-weight: 500;color: #555555;padding: 0}
+.payfooter .paycount span{color: #a60014;}
+.payfooter .paygopay{height: 60px;text-decoration: none;font-size: 1.6em;font-weight: 700; color: #ffffff;background-color: #a60014;display: inline-block;padding:0;}
+
+/*
+paysuccess
+ */
+
+.pay-order-num{color: #555555;font-size: 1em;height: 50px;line-height: 50px;background-color: #ffffff;margin-top: 3%;}
+.pay-order-num p{}
+.pay-order-num span{color: #a60014;}
+
+.pay-success  {height: 50%; padding-top:5%;border-top: 1px solid #e5e5e5;background-color: #ffffff;}
+.pay-success h5{padding:0 10%;}
+
+.pay-other{margin-top: 5%;}

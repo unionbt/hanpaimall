@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+header .topnav {
+	top: 0px;
+}
+section {
+	width:100%;
+	min-width:1192px;
+	min-height:950px;
+	background-color:#f5f5f5;
+	margin-top:-45px;
+	padding-top:1px;
+	display:block;
+}
+#content_top {
+	margin:auto;
+	width:1192px;
+	height:46px;
+	background-color:#FFF;
+	margin-top:10px;
+}
+#content_top div.dd_hao {
+	width:228px;
+	overflow:hidden;
+	height:46px;
+	margin-left:34px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#555555;
+	line-height:46px;
+	float:left;
+}
+#content_top div.cj_time {
+	width:220px;
+	overflow:hidden;
+	height:46px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#555555;
+	line-height:46px;
+	float:left;
+}
+#content_top div span {
+	margin-left:3px;
+}
+#content_top p {
+	overflow:hidden;
+	height:46px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#c20100;
+	line-height:46px;
+	float:right;
+	margin-right:41px;
+}
+#success {
+	margin:auto;
+	width:1192px;
+	height:300px;
+	background-color:#FFF;
+	margin-top:10px;
+	border-width:1px;
+	border-color:#fff;
+	border-style:solid;
+}
+#success h1 {
+	width:170px;
+	height:30px;
+	line-height:30px;
+	margin:0;
+	padding:0;
+	margin:auto;
+	font-family:"微软雅黑";
+	font-size:30px;
+	color:#01a511;
+	margin-top:100px;
+	background-image:url(../../img/pc/pay_success/success_ico.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	text-align:right;
+
+}
+#success p {
+	margin:auto;
+	font-family:"微软雅黑";
+	font-size:18px;
+	color:#999999;
+	height:26px;
+	line-height:26px;
+	margin-top:41px;
+	overflow:hidden;
+	margin-left:335px;
+}
+#tiaozhuan_btn {
+	display: block;
+	margin:auto;
+	width:275px;
+	height:60px;
+	line-height:58px;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:24px;
+	color:#FFF;
+	cursor:pointer;
+	border-width:1px;
+	border-color:#cccccc;
+	border-style:solid;
+	background-color:#ff9934;
+	margin-top:30px;
+}
+
+
